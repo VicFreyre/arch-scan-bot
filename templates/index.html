@@ -1,0 +1,11 @@
+<!doctype html>
+<title>Vuln Lab - Cenários</title>
+<h1>Vuln Lab - Cenários controlados</h1>
+<p>Executar apenas em ambiente isolado (VM / container). Não expor.</p>
+<ul>
+  <li><a href="{{ url_for('sql_injection') }}">SQL Injection</a></li>
+  <li><a href="{{ url_for('xss_demo') }}">Reflected XSS</a></li>
+  <li><a href="{{ url_for('upload_demo') }}">Insecure Upload</a></li>
+  <li><a href="{{ url_for('csrf_demo') }}">CSRF-simulado</a></li>
+  <li><a href="{{ url_for('idor_demo') }}">IDOR</a></li>
+</ul>
